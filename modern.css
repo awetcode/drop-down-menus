@@ -1,0 +1,75 @@
+body, html
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 1em;
+}
+div.clear
+{
+	clear: both;
+}
+
+#nav
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	background-color: LightBlue;
+	height: 24px;
+}
+
+	#nav li
+	{
+		float: left;
+		width: 100px;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	
+	#nav li h4
+	{
+		margin: 0;
+		padding: 2px 3px;
+		
+	}
+	
+	#nav li.visible h4
+	{
+		color: White;
+		background-color: Blue;
+	}
+	
+	#nav li a
+	{
+		padding: 1px 3px;
+		display: block;
+		background-color: LightBlue;
+		color: Black;
+		text-decoration: none;
+	}
+	
+	#nav li a:hover
+	{
+		color: White;
+		background-color: Blue;
+	}
+	
+	#nav li.hidden a
+	{
+		display: none;
+	}
+	
+	#content
+	{
+		margin: 44px 10px 0 10px;
+	}
+		#content p
+		{
+			margin: 5px;
+		}
